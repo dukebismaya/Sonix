@@ -11,7 +11,7 @@ Thumbs.db
 *.userprefs
 
 # Build outputs and packages
-/dist/
+dist/
 Dist/
 bin/
 obj/
@@ -30,7 +30,6 @@ Builds/
 # Unity specific (if applicable)
 Library/
 Temp/
-obj/
 Assets/AssetStoreTools*
 
 # Node / JS
@@ -51,9 +50,7 @@ venv/
 *.cache
 *.bak
 
-# Certificates /
-
-
+# Project specific
 backup/
 old_main.css
 sonix/node_modules/
