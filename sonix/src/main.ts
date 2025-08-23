@@ -1,3 +1,4 @@
+import { inject } from '@vercel/analytics';
 import * as jsmediatags from 'jsmediatags';
 
 import './styles/main.css';
@@ -1672,5 +1673,7 @@ class SonixApp {
 document.addEventListener('DOMContentLoaded', () => {
     new SonixApp();
 });
+
+inject();
 
 export { SonixApp };
