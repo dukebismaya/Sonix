@@ -10,6 +10,7 @@ import { PlaylistView } from './components/Player/PlaylistView';
 import { AudioVisualizer } from './components/Visualizer/AudioVisualizer';
 import { Sidebar } from './components/UI/Sidebar';
 import { Header } from './components/UI/Header';
+import { TypeWriter } from './components/UI/TypeWriter';
 import { ThemeToggle } from './components/UI/ThemeToggle';
 import { PlaylistEditor } from './components/UI/PlaylistEditor';
 import { AudioService } from './services/AudioService';
@@ -23,6 +24,7 @@ import { TrackContextMenu } from './components/UI/TrackContextMenu';
 
 class SonixApp {
     private header!: Header;
+    private typeWriter!: TypeWriter;
     private sidebar!: Sidebar;
     private themeToggle!: ThemeToggle;
     private volumeControl!: VolumeControl;
@@ -46,6 +48,7 @@ class SonixApp {
         this.setupLayout();
         this.connectComponents();
         this.loadInitialContent();
+        this.initializeTypeWriter();
 
         // Clean up blob URLs on page unload
         window.addEventListener('beforeunload', () => {
@@ -1667,6 +1670,11 @@ class SonixApp {
         if (savedVolume) {
             this.audioService.setVolume(parseFloat(savedVolume));
         }
+    }
+
+    private initializeTypeWriter(): void {
+        this.typeWriter = new TypeWriter();
+        console.log('✅ TypeWriter initialized');
     }
 }
 
