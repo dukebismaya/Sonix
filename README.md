@@ -199,7 +199,7 @@ This project is licensed under the **GNU GENERAL PUBLIC LICENSE** - see the [LIC
 **Developed with ❤️ by [Dev Bismaya](https://github.com/dukebismaya)**
 
 - 🌐 **Live Demo**: [my-sonix.vercel.app](https://my-sonix.vercel.app/)
-- 📧 **Email**: [your-email@example.com](mailto:bismayajyotidalei@gmail.com)
+- 📧 **Email**: [bismayajyotidalei@gmail.com](mailto:bismayajyotidalei@gmail.com)
 - 🐙 **GitHub**: [@dukebismaya](https://github.com/dukebismaya)
 - 💼 **LinkedIn**: [Bismaya Jyoti Dalei](https://www.linkedin.com/in/bismaya-jyoti-d-74692a328/)
 
