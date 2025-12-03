@@ -1,0 +1,56 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# IDEs / editors
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userprefs
+
+# Build outputs and packages
+dist/
+Dist/
+bin/
+obj/
+Build/
+Builds/
+*.exe
+*.dll
+*.pdb
+*.apk
+*.aab
+*.ipa
+*.app
+*.class
+*.jar
+
+# Unity specific (if applicable)
+Library/
+Temp/
+Assets/AssetStoreTools*
+
+# Node / JS
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+
+# Misc
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Project specific
+backup/
+old_main.css
+sonix/node_modules/
